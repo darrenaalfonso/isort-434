@@ -49,7 +49,7 @@ WrapModes = namedtuple('WrapModes', WrapModes)(*range(len(WrapModes)))
 default = {'force_to_top': [],
            'skip': ['scripts', ],
            'skip_glob': [],
-           'line_length': 150,
+           'line_length': 130,
            'wrap_length': 0,
            'line_ending': None,
            'sections': DEFAULT_SECTIONS,
